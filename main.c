@@ -8,7 +8,7 @@ int main()
     int ff;
     int pm, pv;
     int pp;
-    int if, it;
+    int if1, it;
     int ii;
 
     printf("힘을 구하고 싶으면 1을, 운동량을 구하고 싶으면 2를, 충격량을 구하고 싶으면 3을 입력하세요: ");
@@ -37,9 +37,9 @@ int main()
     else
         {
         printf("구하고 싶은 충격량에 대한 질량과 속도를 각각 입력하세요: \n");
-        scanf("%d %d", &if, &it);
+        scanf("%d %d", &if1, &it);
 
-        ii = if * it;
+        ii = if1 * it;
 
         printf("구하고 싶은 충격량은 %d 입니다.", ii);
 
